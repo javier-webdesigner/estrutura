@@ -17,12 +17,12 @@ const Hero = () => (
     {/* Mobile: Photo as hero background, text overlaid at bottom */}
     <div className="block md:hidden relative flex-1 min-h-screen">
       {/* Photo */}
-      <div className="absolute inset-0 flex justify-center">
+      <div className="absolute top-0 left-0 right-0 h-[52vh] flex justify-center">
         <img
           src={fotoJavier}
           alt="Javier Maita — Consultor de Estrutura Comercial"
           className="w-full h-full object-cover object-top"
-          style={{ objectPosition: "center 5%" }}
+          style={{ objectPosition: "center 20%" }}
         />
         {/* Gradient overlay for text legibility */}
         <div
