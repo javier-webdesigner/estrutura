@@ -61,7 +61,7 @@ const Hero = () => (
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-md text-base font-semibold hover:brightness-110 transition shadow-lg w-full justify-center"
           style={{ boxShadow: "var(--gold-glow)" }}
         >
-          FALAR COM JAVIER NO WHATSAPP
+          FALAR COM JAVIER AGORA
         </a>
       </motion.div>
     </div>
@@ -115,7 +115,7 @@ const Hero = () => (
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-md text-base font-semibold hover:brightness-110 transition shadow-lg"
               style={{ boxShadow: "var(--gold-glow)" }}
             >
-              FALAR COM JAVIER NO WHATSAPP
+              FALAR COM JAVIER AGORA
             </a>
           </motion.div>
 
