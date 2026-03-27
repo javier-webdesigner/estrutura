@@ -21,7 +21,7 @@ const Hero = () => (
         <img
           src={fotoJavier}
           alt="Javier Maita — Consultor de Estrutura Comercial"
-          className="w-[65%] h-full object-cover object-top"
+          className="w-full h-[85%] object-cover object-top"
           style={{ objectPosition: "center 10%" }}
         />
         {/* Gradient overlay for text legibility */}
