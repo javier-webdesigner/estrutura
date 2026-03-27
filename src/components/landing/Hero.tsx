@@ -17,12 +17,12 @@ const Hero = () => (
     {/* Mobile: Photo as hero background, text overlaid at bottom */}
     <div className="block md:hidden relative flex-1 min-h-screen">
       {/* Photo */}
-      <div className="absolute top-0 left-0 right-0 h-[52vh] flex justify-center">
+      <div className="absolute inset-0 flex justify-center">
         <img
           src={fotoJavier}
           alt="Javier Maita — Consultor de Estrutura Comercial"
           className="w-full h-full object-cover object-top"
-          style={{ objectPosition: "center 20%" }}
+          style={{ objectPosition: "center 25%" }}
         />
         {/* Gradient overlay for text legibility */}
         <div
@@ -39,7 +39,7 @@ const Hero = () => (
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="relative z-10 mt-auto px-6 pb-10 pt-[55vh]"
+        className="relative z-10 px-6 pb-10 pt-[38vh]"
       >
         <h1 className="font-display text-[2.25rem] font-bold leading-[1.15] text-foreground mb-4">
           Isso não é uma fase.{" "}
