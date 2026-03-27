@@ -16,7 +16,7 @@ const videos = [
   },
   {
     id: 2,
-    src: "https://www.youtube.com/embed/dQw4w9WgXcQ", // paste your second video embed URL here
+    src: "https://www.youtube.com/embed/oz6uaDlw09I", // paste your second video embed URL here
     label: "Depoimento — Luiz (Guincho)",
   },
 ];
