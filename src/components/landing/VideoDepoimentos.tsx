@@ -11,12 +11,12 @@ import { Play } from "lucide-react";
 const videos = [
   {
     id: 1,
-    src: "https://www.instagram.com/reel/DVW3WAIkZOb/?igsh=MXBtMTZzbHV0MWkxZg==/e", // paste your first video embed URL here
+    src: "https://www.instagram.com/reel/DVW3WAIkZOb/?igsh=MXBtMTZzbHV0MWkxZg==/embed", // paste your first video embed URL here
     label: "Depoimento — Rogeiro (Pet Shop)",
   },
   {
     id: 2,
-    src: "https://www.youtube.com/embed/oz6uaD1w09I", // paste your second video embed URL here
+    src: "https://www.youtube.com/embed/dQw4w9WgXcQ", // paste your second video embed URL here
     label: "Depoimento — Luiz (Guincho)",
   },
 ];
