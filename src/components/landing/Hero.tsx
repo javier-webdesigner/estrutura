@@ -50,6 +50,21 @@ const Hero = () => (
           Processo, funil, atendimento e follow-up organizados para parar de perder vendas.
         </p>
 
+
+          <ul className="space-y-3 mb-6">
+            {pains.map((p) => (
+              <li key={p} className="flex items-start gap-3 text-secondary-foreground font-body text-[1.0625rem] md:text-base leading-relaxed">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                {p}
+              </li>
+            ))}
+          </ul>
+
+          <p className="text-primary font-display text-lg italic mb-4">
+            "Quando você chama isso de 'fase', você normaliza a perda."
+          </p>
+
+          
         <p className="text-xs text-muted-foreground mb-4 font-body tracking-wide">
           Provas no Instagram. Diagnóstico no WhatsApp.
         </p>
