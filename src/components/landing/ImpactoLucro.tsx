@@ -43,7 +43,7 @@ const ImpactoLucro = () => (
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-md text-base font-semibold hover:brightness-110 transition shadow-lg"
           style={{ boxShadow: "var(--gold-glow)" }}
         >
-          QUERO LUCRAR MAIS AGORA
+          EU QUERO LUCRAR MAIS
         </a>
       </motion.div>
     </div>
