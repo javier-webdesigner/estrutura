@@ -11,12 +11,12 @@ import { Play } from "lucide-react";
 const videos = [
   {
     id: 1,
-    src: "https://youtube.com/shorts/fK-5vD9nEX8?si=R6M-H6yvGh1GWLUz", // paste your first video embed URL here
+    src: "https://www.youtube.com/embed/FK-5vD9nEX8", // paste your first video embed URL here
     label: "Depoimento — Rogeiro (Pet Shop)",
   },
   {
     id: 2,
-    src: "https://youtube.com/shorts/oz6uaDlw09I?si=gMNaK04Zg3dJU8HH", // paste your second video embed URL here
+    src: "https://www.youtube.com/embed/oz6uaD1w09I", // paste your second video embed URL here
     label: "Depoimento — Luiz (Guincho)",
   },
 ];
