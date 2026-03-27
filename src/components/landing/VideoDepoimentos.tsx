@@ -11,7 +11,7 @@ import { Play } from "lucide-react";
 const videos = [
   {
     id: 1,
-    src: "https://www.instagram.com/reel/DVW3WAIkZOb/?igsh=MXBtMTZzbHV0MWkxZg==/embed", // paste your first video embed URL here
+    src: "https://www.youtube.com/embed/fK-5vD9nEX8", // paste your first video embed URL here
     label: "Depoimento — Rogeiro (Pet Shop)",
   },
   {
